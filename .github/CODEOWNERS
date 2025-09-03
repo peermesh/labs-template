@@ -1,0 +1,9 @@
+# Maintainers own protected areas
+/docs/ @peermesh/maintainers
+/.github/ @peermesh/maintainers
+/PROMOTION.md @peermesh/maintainers
+/PRD.md @peermesh/maintainers
+
+# Interns own feature directories (adjust per project)
+/src/ @peermesh/interns
+/tests/ @peermesh/interns

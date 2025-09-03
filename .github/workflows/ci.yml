@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run tests
+        run: |
+          echo "✅ Add real build/test steps here"
+          echo "Example: npm install && npm test"
+          echo "Or: pip install -r requirements.txt && pytest"
+      
+      - name: Linting
+        run: |
+          echo "✅ Add linting steps here"
+          echo "Example: npm run lint"
+          echo "Or: flake8 ."
